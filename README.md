@@ -1,1 +1,1 @@
-# Python
+python learing notes
