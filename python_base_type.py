@@ -39,6 +39,28 @@ mydir = {'name':'lee','age':21}
 print("长度为：\t",len(mydir))
 print("名字：\t", mydir['name'] + "\n年龄：\t",mydir['age'])
 
-# blist = alist
-# clist = alist[:]
-# id(clist)
+# blist = alist		# 表示将alist的值赋值给blist，指向的都是同一内存空间的值，所以修改了blist的值，alist的值也会跟着改变
+# clist = alist[:]	# 将alist的元素赋值给alist，此时clist，就会在内存空间中开辟新的空间进行存储，修改clist的元素，不会影响alist的
+
+# id(clist)		#查找变量的身份位置
+
+# 数据类型的分类
+#按存储模型分类：
+	#标量类型：数字，字符串
+	#容器类型：列表，元组，字典
+#按更新模型分类：
+	#可变类型：列表，元组，字典
+	#不可变类型：数字，字符串
+#按访问模型分类：
+	#直接访问：数字
+	#顺序访问：字符串，列表，元组
+	#映射访问：字典
+
+
+
+
+
+
+
+
+
