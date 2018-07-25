@@ -59,7 +59,7 @@ if __name__ == '__main__':
                 conversion = File_Coversion(unix_file)
                 conversion.to_unix()
                 print("\t \033[31;1mConvert Successful!\033[0m")
-            elif choice == '3':
+            elif choice == "3":
                 exit()
             else:
                 print('\t',"\033[31;1mInvaild Input!\033[0m")
