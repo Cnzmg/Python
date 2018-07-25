@@ -634,7 +634,7 @@ c = socket.socket()
 c.connect(addr)
 while True:
 
-    dt = time.strftime('%Y-%m-%d ', time.localtime())
+    dt = time.strftime('%Y-%m-%d %X', time.localtime())
     data = dt + ' ---> ' + input('-> ')
     c.send(data.encode('utf8'))
     if data.strip() == 'end':
