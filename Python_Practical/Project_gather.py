@@ -30,7 +30,7 @@
 #
 #     computer = random.choice(mode)
 #     ind = int(input(prompt))
-#
+
 #     if ind > 2:
 #         print("\t\033[31;1m你的输入有误,请重新输入\033[0m")
 #         continue
