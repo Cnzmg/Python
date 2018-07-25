@@ -32,6 +32,7 @@ if __name__ == '__main__':
 ＃➜ /  mnt ji crontab  -l
 #  0 18 * * * /usr/local/bin/python3 /mnt/python/File\ Compression.py
 
+
 #解压文件:
 # with tarfile.open('/mnt/demo.tar.gz') as fobj:
 #     fobj.extractall()
