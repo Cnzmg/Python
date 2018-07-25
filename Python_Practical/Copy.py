@@ -17,7 +17,7 @@ def copy(src_file,dst_file):
 if __name__ == '__main__':
     while True:
         try:
-            file = input("Please enter the file that you want to copy:  ").strip()
+            file = input("Please enter the file that you want to copy:").strip()
             file_name = input("\nPlease enter the location you want to copy to:").strip()
             copy(file,file_name)
             print("\nSuccessful!")
