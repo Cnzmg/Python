@@ -28,5 +28,10 @@ if __name__ == '__main__':
     else:
         sync()
 
-# ➜  /mnt  crontab -l
+# 结合Linux的定时计划任务可以实现定时备份
+＃➜ /  mnt ji crontab  -l
 #  0 18 * * * /usr/local/bin/python3 /mnt/python/File\ Compression.py
+
+#解压文件:
+# with tarfile.open('/mnt/demo.tar.gz') as fobj:
+#     fobj.extractall()
