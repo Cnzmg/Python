@@ -51,7 +51,7 @@ def menu():
         except IndexError:
             print("\t\033[31;1mPlease enter your choice.Try again.\033[0m")
 
-        cmds[choice]()
+        cmds [ 选择 ]（)
 
 
 
