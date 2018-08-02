@@ -106,7 +106,6 @@
 # copy(sys.argv[1], sys.argv[2])
 
 # 模拟创建txt文件
-
 # import os
 #
 # def get_fname():
